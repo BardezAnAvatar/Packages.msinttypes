@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>msinttypes</id>
+    <version>26.0.0</version>
+    <title>msinttypes</title>
+    <license type="expression">BSD-3-Clause</license>
+    <projectUrl>https://code.google.com/archive/p/msinttypes/</projectUrl>
+    <authors>Alexander Chemeris</authors>
+    <owners>Alexander Chemeris</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C++ Microsoft Integer Types</description>
+    <summary>C++ Microsoft Integer Types</summary>
+    <releaseNotes>[Issue 5] Change &lt;stdint.h&gt; to "stdint.h" to let compiler search for it in local</releaseNotes>
+    <copyright></copyright>
+    <language>en-GB</language>
+    <tags>msinttypes</tags>
+  </metadata>
+  <files>
+    <file src="src\include\inttypes.h" target="src\include\inttypes.h" />
+    <file src="src\include\stdint.h" target="src\include\stdint.h" />
+    <file src="changelog.txt" target="changelog.txt" />
+  </files>
+</package>
